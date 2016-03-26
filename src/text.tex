@@ -1,28 +1,28 @@
 \section*{Motivace a myšlenka experimentu}
 
-Jedním z nástrojem ke zkoumání vlastností broušeného kamene je nasvícení jeho povrchu světelným svazkem. Na fasetách broušeného kamene dochází ve zjednodušeném případě k odrazu a lomu světelného svazku. Z toho důvodu se dopadající světelný svazek roztříští na řadu světelných svazků, které z kamene vystupují v různém směru, s rozdílným zářivým tokem a dalšími typickými vlastnostmi, jako je například polarizace. 
+Jedním z nástrojem ke zkoumání vlastností broušeného kamene je nasvícení jeho povrchu světelným svazkem. Na fasetách broušeného kamene dochází ve zjednodušeném případě k odrazu a lomu světelného svazku. Z toho důvodu se dopadající světelný svazek roztříští na řadu světelných svazků, které z kamene vystupují v různých směrech, s rozdílným zářivým tokem a dalšími typickými vlastnostmi, jako je například polarizace. 
 Vystupující světelné svazky lze zachytit na stínítku. Obrazec vzniklý na stínítku jednoznačně charakterizuje broušený kámen. 
 
 Pro tento experiment nasvícení kamene již vznikla řada programů obsahující více či méně věrohodný matematický model. Máme tedy možnost průlet světelného svazku kamenem simulovat. 
 
 V našem případě využíváme program LADOK, který vznikl v Centru strojového vnímání na katedře Kybernetiky ČVUT v Praze. Simulační program LADOK dostatečně přesně určuje matematický model experimentu.
 
-Cestou jak určit tvar a další typické vlastností kamene je rozpoznat vystupující paprsky a nalézt takový matematický model, jehož výstup by odpovídal reálné situaci (obrazci na stínítku). 
+Cestou, jak určit tvar a další typické vlastností kamene, je rozpoznat vystupující paprsky a nalézt takový matematický model, jehož výstup by odpovídal reálné situaci (obrazci na stínítku). 
 
-Problém však činí v rozpoznání světelných svazků. V tomto případě jde o správné přiřazení cesty, kterou světelný svazek v kameni urazil. Parametry svazku, které nám pomáhají rozpoznat jeho cestu jsou směr (azimut, elevace), zářivý tok, intenzita, plocha, velikost a směr světelných šmouh (dále nazývaných ocásky) vznikajících při průchodu světelného svazku přes hranu kamene. 
+Problém však tkví v rozpoznání světelných svazků. V tomto případě jde o to ke každému svazku, viditelném na stínítku, přiřadit správnou posloupnost faset kamene, přes které se světelný svazek lomil nebo odrážel. Parametry svazku, které nám pomáhají rozpoznat jeho cestu jsou směr (azimut, elevace), zářivý tok, intenzita, plocha, velikost a směr světelných šmouh, dále nazývaných ocásky, vznikajících při průchodu světelného svazku přes hranu kamene. 
 
-Důvodem experimentu je pokusit se nalézt další parametr světelného svazku, jenž by v kombinaci s ostatními parametry pomohl svazek správně rozpoznat. 
+Cílem experimentu je pokusit se nalézt další parametr světelného svazku, jenž by v kombinaci s ostatními parametry pomohl svazek správně rozpoznat. 
 
-Vlastnost, kterou se pokoušíme najít je směr, či velikost posunu světelných svazků při rotaci kamene, nebo při naklonění zdroje dopadajícího světelného svazku. 
+Pokusíme se naleznout směr či velikost posunu světelných svazků při rotaci kamene nebo při naklonění zdroje dopadajícího světelného svazku. 
 
 \newpage
 \section*{Teoretický rozbor problému}
 
-Rotace kamene podle souřadné soustavy například v jeho těžišti způsobí změnu vlastností vystupujících světelných svazků (směr, zářivého tok, intenzita, vlastnosti ocásků atd.). Za určitých okolností může světelný svazek zcela vymizet. Tato situace nastává například při vylomení světelného svazku z kamene do okolí. Když vlivem rotace překročíme kritický úhel, nedochází k vylomení světelného svazku, ale k totálnímu odrazu na fasetě. Další situace ztráty světelného svazku vznikne, při posunu světelného svazku mimo fasetu a to jak při odrazu, tak při lomu. Ze stejných důvodů, proč mohou světelné svazky vymizet mohou naopak vzniknout svazky nové.
+Rotace kamene kolem osy způsobí změnu vlastností vystupujících světelných svazků (směru, zářivého toku, intenzity, vlastnosti ocásků atd.). Za určitých okolností může světelný svazek zcela vymizet. Tato situace nastává například při lomu světelného svazku z kamene do okolí. Když vlivem rotace překročíme kritický úhel, nedochází k vylomení světelného svazku, ale k totálnímu odrazu na fasetě. Světelný svazek také postupně zmizí při posunu světelného svazku mimo fasetu, a to jak při odrazu, tak při lomu. Ze stejných důvodů, proč mohou světelné svazky vymizet, mohou naopak vzniknout svazky nové.
 
 Uvažujeme zjednodušenou situaci. Světelný svazek nahradíme světelným paprskem ležícím v jeho pomyslném těžišti. 
 
-Světelný paprsek necháme dopadat na zrcadlo pod úhlem $\varphi_1$ a od nějž se odráží podle známého zákonu odrazu pod úhlem $\varphi_1$. Při vychýlení světelného paprsku o úhel $ \delta $ v záporném směru úhlu $\varphi_1$ je odražený úhel $\varphi_1 + \delta$. Odražený paprsek se posune o úhel $ \delta $.
+Světelný paprsek necháme dopadat na zrcadlo pod úhlem $\varphi_1$ a od nějž se odráží podle známého zákonu odrazu pod úhlem $\varphi_1$. Při vychýlení světelného paprsku o úhel $ \delta $ v kladném směru úhlu $\varphi_1$ je odražený úhel $\varphi_1 + \delta$. Odražený paprsek se otočí o úhel $ \delta $.
 
 \begin{figure}[h!]
 \begin{center}
@@ -32,10 +32,10 @@ Světelný paprsek necháme dopadat na zrcadlo pod úhlem $\varphi_1$ a od něj�
 \label{fig:odraz laser}
 \end{figure}
 
-Jiná situace nastává při rotaci zrcadla kolem jeho těžiště o úhel $\alpha$ v kladném směru. Světelný paprsek dopadá na na zrcadlo pod úhlem $\varphi_1 + \alpha$. Odráží se pod úhlem $\varphi_1+\alpha$, ale vzhledem k tomu, že vstupní parsek je ve stejné pozici, se výstupní paprsek posune o úhel  $2\alpha$. 
+Jiná situace nastává při rotaci zrcadla kolem osy o úhel $\alpha$ v záporném směru. Světelný paprsek dopadá na zrcadlo pod úhlem $\varphi_1 + \alpha$. Odráží se pod úhlem $\varphi_1+\alpha$, ale vzhledem k tomu, že vstupní parsek je ve stejné pozici, se výstupní paprsek otočí o úhel  $2\alpha$. 
 
 
-Důsledkem toho dostaneme identické výsledky experimentu při rotaci kamene, jako při natočení světelného zdroje o dvojnásobný úhel v opačném směru, proto budeme dále uvažovat pouze rotaci kamene. 
+Důsledkem toho dostaneme identické výsledky experimentu při rotaci kamene, jako při natočení světelného zdroje o dvojnásobný úhel v opačném směru. Dále budeme tedy uvažovat pouze rotaci kamene. 
 
 \newpage
 \begin{figure}[h!]
@@ -46,9 +46,9 @@ Důsledkem toho dostaneme identické výsledky experimentu při rotaci kamene, j
 \label{fig:odraz zrcadlo}
 \end{figure}
 
-Pokud by docházelo pouze k odrážení od zrcadel v dvojrozměrné rovině, tak by naše zkoumání postrádalo smysl. Výstupní parsek by se vždy posunul o dvojnásobek úhlu rotace kamene a to ve stejném směru. 
+Pokud by docházelo pouze k odrážení od zrcadel v dvojrozměrné rovině, tak by naše zkoumání postrádalo smysl. Výstupní parsek by se vždy otočil o dvojnásobek úhlu rotace kamene a to ve stejném směru. 
 
-S uvažováním materiálu kamene s konstantním indexem lomu $ n_1>1 $ a okolí s indexem lomu $ n_2 = 1 $ se situace dramaticky mění. Vezměme si příklad vylomení paprsku z kamene přes rovinnou fasetu. Úhel dopadajícího paprsku na fasetu označme $\alpha_1$ a úhel lomeného svazku $\alpha_2$, pak můžeme podle Snellova zákonu psát
+S uvažováním materiálu kamene s konstantním indexem lomu $ n_1>1 $ a okolí s indexem lomu $ n_2 = 1 $ se situace dramaticky mění. Vezměme si příklad lomu světelného paprsku z kamene přes rovinnou fasetu. Úhel dopadajícího paprsku na fasetu označme $\alpha_1$ a úhel lomeného svazku $\alpha_2$, pak můžeme podle Snellova zákonu psát
 
 \begin{center}
 $n_1\,\sin(\alpha_1) = n_2\,\sin(\alpha_2) = \sin(\alpha_2)\,.$
@@ -58,7 +58,7 @@ $n_1\,\sin(\alpha_1) = n_2\,\sin(\alpha_2) = \sin(\alpha_2)\,.$
 \begin{center}
 \scalebox{.9}{ \input{xfig/index.pstex_t}}
 \end{center}
-\caption{Tři případy, které mohou nastat při dopadu světelného paprsku na fasetu. Zleva vylomení paprsku z kamene, dopad pod kritickým úhlem a totální odraz.}
+\caption{Tři případy, které mohou nastat při dopadu světelného paprsku na fasetu. Zleva lom paprsku z kamene, dopad pod kritickým úhlem a totální odraz.}
 \label{fig:lom ven }
 \end{figure}
 
@@ -87,7 +87,7 @@ Velikost změny posunu světelného svazku tedy může být teoreticky libovoln�
 \begin{center}
 \includegraphics[width = 10cm]{figures/derivace.eps}
 \end{center}
-\caption{Změna lomeného úhlu na dopadajícím úhlu. Pro kritický úhel roste k nekonečnu. Graf funkce popsané vzorcem \ref{eq:zmena velikosti posunu}.}
+\caption{Závislost lomeného úhlu na dopadajícím úhlu. Pro kritický úhel roste k nekonečnu. Graf funkce popsané vzorcem \ref{eq:zmena velikosti posunu}.}
 \label{fig:derivace uhlu}
 \end{figure}
 \newpage
