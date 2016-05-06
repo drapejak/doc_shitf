@@ -24,4 +24,6 @@
 }}}}
 \put(3950,-3619){\makebox(0,0)[lb]{\smash{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$\varphi_1 + \delta$}%
 }}}}
+\put(3564,-3500){\makebox(0,0)[lb]{\smash{{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$\delta$}%
+}}}}
 \end{picture}%
